@@ -1,0 +1,8 @@
+File: part_B.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+  [WARN] D01.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo:
+- D01.png, D02.png: Ảnh NIR Drive&Act xoay 90 độ, hai mắt xếp theo trục dọc (y), trong đó mắt trái của tài xế (left_eye_*) có tọa độ y lớn hơn mắt phải (right_eye_*) đúng quy tắc 4.4-2 và 4.6. Cảnh báo do script so theo trục x.

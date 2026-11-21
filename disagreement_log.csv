@@ -1,0 +1,8 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.95),center,lap,ambiguous,4.5,Giữ center vì tay phải và hướng mắt tài xế đang nhìn vào vùng bảng điều khiển/hộp số giữa xe
+D03.png,face,eye_left,khác giá trị (IoU=0.96),closed,unknown,peer,4.5,Sửa eye_left từ closed sang unknown trên bản v2 vì tròng kính bị đốm phản xạ LED che khuất không thấy rõ mí mắt
+D05.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Giữ occluded=1 cho mouth_left vì chai nước đang uống che khuất vùng miệng tài xế; bạn cùng nhóm sửa lại bài của bạn
+D06.png,person,seatbelt,khác giá trị (IoU=0.99),worn_correct,unknown,peer,4.7,Sửa seatbelt từ worn_correct sang unknown trên bản v2 vì tài xế đang cầm kéo dây thắt dở chứ chưa cài xong
+S03_rgb.png,object,type,khác giá trị (IoU=0.81),cup,other,mine,4.8,Giữ type=cup vì trên ghế rear_left thấy rõ hình trụ của chiếc cốc có quai; bạn cùng nhóm cập nhật lại
+S06_rgb.png,person,seatbelt,khác giá trị (IoU=0.97),not_worn,unknown,peer,4.4-1,Sửa seatbelt từ not_worn sang unknown trên S06_rgb bản v2 vì ảnh RGB quá tối vùng ngực chìm trong bóng tối (không suy từ S06_ir)
+S07_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,no,mine,4.4-1,Giữ occupied=unknown trên S07_rgb vì lòng ghế child_seat ở rear_middle tối đen không thấy rõ bên trong trên ảnh RGB
